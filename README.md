@@ -8,7 +8,8 @@ Clean logs and create archive to send to SURO (for more info see [Detektor zář
 - Ommit LOGS inside the "Geofencing" zones
 - Print some stats
 
-### publicateLogs.cfg
+
+### CONFIG - publicateLogs.cfg
 ```none
 [DEFAULT]
 # TAR archive will be created here
@@ -28,5 +29,10 @@ sfID=1234
 #...
 #n=
 ```
+
+### USAGE
+- Create "pub_dir" and "save_dir" folders into the root of SD card
+- Copy files to Saafecast SD card root
+- Run script
 
 THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
